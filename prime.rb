@@ -3,7 +3,7 @@ def prime?(integer)
   y = integer - 1               
   range_array = []
   
-  if integer <= 0 
+  if integer <= 1 
     return false
   elsif integer > 0
     while y > 0                 
