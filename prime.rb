@@ -5,7 +5,7 @@ def prime?(integer)
   
   if integer <= 0 
     return false
-  end
+    break
   elsif integer > 0
     while y > 0                 
       range_array << y          
